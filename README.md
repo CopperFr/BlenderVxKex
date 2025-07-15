@@ -9,7 +9,7 @@ of Blender to have CUDA and/or OptiX cycles working when [VxKex](https://github.
 
 Build environment:
 ```
-Visual Studio 2019, version 16.11.46
+Visual Studio 2019, version 16.11.48
 Windows SDK 10.0.22000.0
 NVIDIA CUDA 10.2 / 11.8 
 NVIDIA OptiX 7.3
@@ -23,11 +23,11 @@ need to use [VxKex](https://github.com/CopperFr/VxKex).
 
 For CUDA you can only replace the file indicated in the error message.
 
-For OptiX you need to replace other files and blender.exe because official one is checking for r495+ drivers to enable OptiX.  
-(OptiX 7.4 requires that you install a r495+ driver not available in Windows 7)
+For OptiX you need to replace other files and blender.exe because official one is checking for r535+ drivers to enable OptiX.  
+(OptiX 8.0 requires that you install a r535+ driver not available in Windows 7)
 
 **Support is only available for compute capability between 3.0 and 8.9.**  
 
 more about CUDA: https://en.wikipedia.org/wiki/CUDA
 
-Render Image seems to have an issue with OptiX cycles when Open Shading Language is checked (preview is working correctly)
+OptiX cycles is not working correctly when Open Shading Language is checked
