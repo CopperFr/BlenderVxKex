@@ -1,6 +1,6 @@
 # BlenderVxKex
 
-Windows 7 CUDA & OptiX support for Blender 4.x and newer with [VxKex](https://github.com/CopperFr/VxKex).
+Windows 7 CUDA & OptiX support for Blender 4.4.x / 4.5.x / 5.x.x with [VxKex](https://github.com/CopperFr/VxKex).
 
 ## Description
 
@@ -18,7 +18,7 @@ When you use [VxKex](https://github.com/CopperFr/VxKex) on the official portable
 CUDA or OptiX will not. For CUDA you'll have an error:
 **Failed to load CUDA kernel from '...\kernel_sm_XX.cubin.zst' (Invalid kernel image)**
 
-It will work if you replace files from **blender-CUDA-OptiX-patch_4_x_x.zip** but you will still
+It will work if you replace files from **blender-CUDA-OptiX-patch_x_x_x.zip** but you will still
 need to use [VxKex](https://github.com/CopperFr/VxKex).
 
 For CUDA you can only replace the file indicated in the error message.
@@ -26,7 +26,8 @@ For CUDA you can only replace the file indicated in the error message.
 For OptiX you need to replace other files and blender.exe because official one is checking for r535+ drivers to enable OptiX.  
 (OptiX 8.0 requires that you install a r535+ driver not available in Windows 7)
 
-**Support is only available for compute capability between 3.0 and 8.9.**  
+**4.4.x / 4.5.x support is only available for compute capability between 3.0 and 8.9.**  
+**5.x.x / 4.5.x support is only available for compute capability between 5.0 and 8.9.**  
 
 more about CUDA: https://en.wikipedia.org/wiki/CUDA
 
