@@ -27,8 +27,8 @@ For OptiX you need to replace other files and blender.exe because official one i
 (OptiX 8.0 requires that you install a r535+ driver not available in Windows 7)
 
 **4.4.x / 4.5.x support is only available for compute capability between 3.0 and 8.9.**  
-**5.x.x / 4.5.x support is only available for compute capability between 5.0 and 8.9.**  
+**5.x.x support is only available for compute capability between 5.0 and 8.9.**  
 
 more about CUDA: https://en.wikipedia.org/wiki/CUDA
 
-OptiX cycles is not working correctly when Open Shading Language is checked
+OptiX cycles is not working correctly when Open Shading Language is checked.
