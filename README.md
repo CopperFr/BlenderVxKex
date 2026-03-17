@@ -7,13 +7,23 @@ Windows 7 CUDA & OptiX support for Blender 4.4.x / 4.5.x / 5.x.x with [VxKex](ht
 This repository contains releases of files to replace in the official portable install
 of Blender to have CUDA and/or OptiX cycles working when [VxKex](https://github.com/CopperFr/VxKex) is used.
 
-Build environment:
+Build environment before 5.1.0:
 ```
-Visual Studio 2019, version 16.11.53
+Visual Studio 2019, version 16.11.54
 Windows SDK 10.0.22621.0
 NVIDIA CUDA 10.2 / 11.8 
 NVIDIA OptiX 7.3
 ```
+
+Build environment since 5.1.0:
+```
+Visual Studio 2022, version 17.14.28
+Windows SDK 10.0.22621.0
+NVIDIA CUDA 11.8 
+NVIDIA OptiX 7.3
+Only ninja build is working on Windows 7
+```
+
 When you use [VxKex](https://github.com/CopperFr/VxKex) on the official portable install of Blender it will work but cycles
 CUDA or OptiX will not. For CUDA you'll have an error:
 **Failed to load CUDA kernel from '...\kernel_sm_XX.cubin.zst' (Invalid kernel image)**
