@@ -9,7 +9,7 @@ of Blender to have CUDA and/or OptiX cycles working when [VxKex](https://github.
 
 Build environment before 5.1.0:
 ```
-Visual Studio 2019, version 16.11.54
+Visual Studio 2019, version 16.11.55
 Windows SDK 10.0.22621.0
 NVIDIA CUDA 10.2 / 11.8 
 NVIDIA OptiX 7.3
@@ -17,7 +17,7 @@ NVIDIA OptiX 7.3
 
 Build environment since 5.1.0:
 ```
-Visual Studio 2022, version 17.14.28
+Visual Studio 2022, version 17.14.30
 Windows SDK 10.0.22621.0
 NVIDIA CUDA 11.8 
 NVIDIA OptiX 7.3
