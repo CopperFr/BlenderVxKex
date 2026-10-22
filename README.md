@@ -17,7 +17,7 @@ NVIDIA OptiX 7.3
 
 Build environment since 5.1.0:
 ```
-Visual Studio 2022, version 17.14.40
+Visual Studio 2022, version 17.14.42
 Windows SDK 10.0.22621.0
 NVIDIA CUDA 11.8 
 NVIDIA OptiX 7.3
